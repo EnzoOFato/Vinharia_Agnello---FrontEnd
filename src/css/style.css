@@ -160,13 +160,33 @@
 .rodape {
     width: 100vw;
     background-color: #750000;
-    height: 10vh;
+    height: 20vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 .rodape p {
     color: rgb(255, 255, 230);
+    position: relative;
+    right: 100px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.redes {
+    transform: scale(0.25);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    right: 300px;
+}
+.redes img {
+    margin: 0px 40px;
+}
+#yout {
+    position: relative;
+    top: 50px;
 }
 h1{
     font-size: 300px;
