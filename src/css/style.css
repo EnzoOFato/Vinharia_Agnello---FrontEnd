@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pattaya&display=swap');
+
 .navbar {
     background-color: #750000;
     overflow: hidden;
@@ -5,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 14px 20px;
-    position: relative;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -26,15 +28,17 @@
     display: inline-block;
     margin: 30px;
     font-size: 30px;
-    color: white
+    color: white;
+    padding-right: 50px;
 }
 .link {
     text-decoration: none;
     color: white
 }
 .link:hover {
-    color: rgb(30, 30, 30);
-    animation-duration: 3s
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 .video-container {
     position: relative;
@@ -48,8 +52,71 @@
 }
 .sobre-nos {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 40px 80px;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+#title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #3d0000;
+}
+#paragrafo{
+    background-color: #750000;
+    border: 5px dotted #3d0000;
+    border-radius: 10px;
+    max-width: 700px;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    right: 200px;
+    height: 500px;
+    text-align: center;
+    font-size: 24px;
+}
+#paragrafo p::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+#link-hist{
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 10px;
+    text-decoration: none;
+    background-color: #750000;
+}
+#link-hist:hover {
+    color: white;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    background-color: #3d0000;
+    border-radius: 10px;  
+}
+.promocoes {
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 80px;
+    max-width: 100vw;
+    box-sizing: border-box;
+    background-color: #3d0000;
+}
+#title-promo {
+    color:white;
+}
+h1{
+    font-size: 300px;
+    font-style: italic;
+    margin: 0;
+    font-family: "Pattaya", sans-serif;
+    line-height: 0.8;
 }
 iframe {
     width: 100vw;
@@ -66,4 +133,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     min-height: 100vh;
     overflow-x: hidden
+}
+html {
+    scroll-behavior: smooth;
 }
