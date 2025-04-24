@@ -16,6 +16,12 @@ O portal de e-commerce da Vinharia Agnello é composto por 5 páginas principais
 * Galeria: Uma seção visual para exibir fotos da loja física, do processo de armazenamento ou preparação dos vinhos, ou outros elementos visuais que conectem os clientes à marca.
 * Estoque: A página central para a venda online, onde os clientes podem navegar por todos os vinhos e outros produtos disponíveis, com informações detalhadas e opções de compra.
 
+## PS
+
+O video é muito longo para ser efetivado o download
+logo, não estranhe caso o mesmo esteja com anúncio
+desculpe pelo incomôdo 
+
 ## Integrantes
 
 * Pedro Abreu
