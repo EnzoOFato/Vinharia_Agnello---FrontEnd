@@ -13,6 +13,12 @@ body {
   margin: 0;
   padding: 0;
 }
+.logo img {
+  width: 140px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 .navbar {
   background-color: #750000;
