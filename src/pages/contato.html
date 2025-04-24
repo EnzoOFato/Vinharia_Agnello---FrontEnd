@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vinharia Agnello - Para qualquer duvida entre em contato conosco">
+    <meta name="keywords" content="Vinharia Agnello - contato, duvida, email, Vinharia Agnello">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>contato</title>
+</head>
+<body>
+</header>
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">
+        <img src="../assets/imgs/logo.png" alt="Logo Vinharia Agnello">
+      </a>
+    </div>
+    <ul id="nav-links">
+      <li><a href="#promo" class="link">Promo</a></li>
+      <li><a href="#sobre+" class="link">Sobre Nós</a></li>
+      <li><a href="#" class="link">Início</a></li>
+      <li><a href="#" class="link">Produtos</a></li>
+      <li><a href="#" class="link">Estoque</a></li>
+      <li><a href="#" class="link">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+</style>
+<form>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required>
+
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="motivo">Motivo do contato:</label>
+  <select id="motivo" name="motivo" required>
+    <option value="" disabled selected>Selecione uma opção</option>
+    <option value="duvida">Dúvida</option>
+    <option value="elogio">Elogio</option>
+    <option value="reclamacao">Reclamação</option>
+    <option value="sugestao">Sugestão</option>
+    <option value="outro">Outro</option>
+  </select>
+
+  <label for="mensagem">Mensagem:</label>
+  <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+  <label for="imagem">Anexar imagem (opcional):</label>
+<input type="file" id="imagem" name="imagem" accept="image/*">
+
+ <button type="submit">Enviar</button>
+</form>
+</style>
+<footer class="rodape">
+  <p>&copy; 2025 Vinharia Agnello. Todos os direitos reservados.</p>
+  <div class="redes">
+      <span><a href="https://www.instagram.com/"><img src="src/assets/imgs/insta.png"></a></span>
+      <span><a href="https://www.facebook.com/"><img src="src/assets/imgs/face.png"></a></span>
+      <span><a href="https://www.youtube.com/"><img src="src/assets/imgs/yout.png" id="yout"></a></span>
+  </div>
+</footer>
+</body>
+</html>
