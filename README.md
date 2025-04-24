@@ -22,9 +22,9 @@ O portal de e-commerce da Vinharia Agnello é composto por 5 páginas principais
 
 ## PS
 
-O video é muito longo para ser efetivado o download
-logo, não estranhe caso o mesmo esteja com anúncio
-desculpe pelo incomôdo 
+O video é muito longo para ser efetivado o download.
+Logo, não estranhe caso o mesmo esteja com anúncio.
+Desculpe pelo incomôdo 
 
 ## Integrantes
 
