@@ -9,27 +9,44 @@
     <title>contato</title>
 </head>
 <body>
-    <header>
-        <img src="../assets/imgs/9462652_35916.jpg" alt="Imagem de vinho" class="top-image">
-        <h1>Fale Conosco</h1>
-    </header>
-  <form>
-    <label>Digite seu nome:<br>
-      <input type="text" name="nome">
-    </label>
-    <br><br>
+</header>
+<header>
+  <nav class="navbar">
+      <div class="logo">
+          <a href="#">Vinharia Agnello</a>
+      </div>
+          <ul id="nav-links">
+              <li><a href="#promo" class="link">Promo</a></li>
+              <li><a href="#sobre+" class="link">Sobre Nós</a></li>
+              <li><a href="#" class="link">Início</a></li>
+              <li><a href="#" class="link">Produtos</a></li>
+              <li><a href="#" class="link">Estoque</a></li>
+              <li><a href="#" class="link">Contato</a></li>
+          </ul>
+  </nav>
+</header> 
+<form>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required>
 
-    <label>Digite seu e-mail:<br>
-      <input type="email" name="email">
-    </label>
-    <br><br>
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required>
 
-    <label>Mensagem:<br>
-      <textarea name="mensagem" rows="5" cols="30"></textarea>
-    </label>
-    <br><br>
+  <label for="motivo">Motivo do contato:</label>
+  <select id="motivo" name="motivo" required>
+    <option value="" disabled selected>Selecione uma opção</option>
+    <option value="duvida">Dúvida</option>
+    <option value="elogio">Elogio</option>
+    <option value="reclamacao">Reclamação</option>
+    <option value="sugestao">Sugestão</option>
+    <option value="outro">Outro</option>
+  </select>
 
-    <button type="submit">Enviar</button>
-  </form> 
+  <label for="mensagem">Mensagem:</label>
+  <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+
 </body>
 </html>
