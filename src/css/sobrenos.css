@@ -10,6 +10,8 @@ body {
   background-color: rgb(255, 255, 230);
   min-height: 100vh;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -23,6 +25,7 @@ body {
   width: 100%;
   z-index: 1000;
   border-bottom: 2px solid #000000;
+  font-family: 'Times New Roman', Times, serif
 }
 
 .logo {
@@ -30,19 +33,16 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.logo a {
-  color: white;
-  text-decoration: none;
-}
-
 #nav-links {
   list-style: none;
-  display: flex;
-  gap: 30px;
 }
 
 #nav-links li {
-  font-size: 20px;
+  display: inline-block;
+  margin: 30px;
+  font-size: 30px;
+  color: rgb(255, 255, 230);
+  padding-right: 50px;
 }
 
 .link {
