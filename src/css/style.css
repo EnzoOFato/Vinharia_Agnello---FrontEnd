@@ -17,6 +17,12 @@
     font-size: 40px;
     color: white
 }
+.logo img {
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .atalhos{
     display: inline-block;
     justify-content: space-between
