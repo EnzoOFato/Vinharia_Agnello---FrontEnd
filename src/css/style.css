@@ -154,7 +154,7 @@
     margin-top: 0;
     font-style: italic;
 }
-.item .btn {
+.item .btn{
     background-color: #3d0000;
     color: rgb(255, 255, 230);
     border: none;
@@ -162,6 +162,16 @@
     font-size: 20px;
     width: 80%;
     height: 50px;
+}
+.item .btn:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    background-color: #750000;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 230);
 }
 .rodape {
     width: 100vw;
