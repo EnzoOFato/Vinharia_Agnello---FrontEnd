@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     min-height: 100vh;
     overflow-x: hidden;
     background-color: rgb(255, 255, 230);
@@ -121,69 +121,80 @@ body {
     background-color: #a00000;
 }
 
-footer {
+.rodape {
+    width: 100vw;
     background-color: #750000;
-    color: rgb(255, 255, 230);
-    padding: 30px 20px;
-    text-align: center;
-    border-top: 2px solid #000000;
-    font-size: 18px;
-    margin-top: 50px;
+    height: 20vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.footer-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 20px;
-}
-
-.footer-links a {
+.rodape p {
     color: rgb(255, 255, 230);
+    position: relative;
+    right: 100px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.redes {
+    transform: scale(0.25);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    right: 300px;
+}
+.redes img {
+    margin: 0px 40px;
+}
+#yout {
+    position: relative;
+    top: 50px;
+}
+.navbar {
+    background-color: #750000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #000000;
+}
+.logo {
+    font-size: 40px;
+    color: white
+}
+.logo img {
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.atalhos{
+    display: inline-block;
+    justify-content: space-between
+}
+#nav-links{
+    list-style: none
+}
+#nav-links li{
+    display: inline-block;
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 230);
+    padding-right: 50px;
+}
+.link {
     text-decoration: none;
-    font-weight: bold;
+    color: rgb(255, 255, 230);
 }
-
-.footer-links a:hover {
-    color: black;
-    transition: color 0.3s ease;
-}
-
-.newsletter {
-    margin-top: 20px;
-}
-
-.newsletter input[type="email"] {
-    padding: 10px;
-    border: none;
-    border-radius: 6px 0 0 6px;
-    outline: none;
-    font-size: 16px;
-    width: 250px;
-    max-width: 90%;
-}
-
-.newsletter button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 0 6px 6px 0;
-    background-color: #a00000;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.newsletter button:hover {
-    background-color: #d00000;
-    transition: background-color 0.3s ease;
+.link:hover {
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
