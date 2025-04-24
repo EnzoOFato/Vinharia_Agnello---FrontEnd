@@ -80,6 +80,7 @@ header {
     max-width: 400px;
     margin: 0 auto;
     margin-top: 50px;
+    opacity: 0.8;
   }
   select {
     width: 100%;
@@ -103,10 +104,11 @@ header {
   
   input, textarea {
     width: 100%;
-    padding: 8px;
+    padding: 8px 12px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box;
   }
   
   button {
@@ -129,6 +131,8 @@ header {
     min-height: 100vh;
     overflow-x: hidden;
     background-color: rgb(255, 255, 230);
+    background-image: url('../assets/imgs/fundo\ image\ contato.png')
   }
+
   
   
