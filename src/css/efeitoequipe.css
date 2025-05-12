@@ -1,0 +1,8 @@
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.link:hover {
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
