@@ -33,3 +33,17 @@ Desculpe pelo incomôdo
 * Enzo Fatobeni
 * Paulo Henrique
 * Leonardo Borges
+
+## Efeitos Visuais
+
+O site da Vinharia Agnello utiliza efeitos visuais simples e elegantes para proporcionar uma boa experiência ao usuário. Abaixo estão os principais recursos aplicados:
+
+### Pseudo-classes
+- `:hover` — foi aplicada a links, botões e campos de envio para alterar cor e realçar elementos quando o usuário passa o mouse.
+- `:focus` — foi aplicada aos campos do formulário para destacar visualmente o campo ativo.
+
+### Pseudo-elementos
+- `::before` e `::after` — foram usados para adicionar elementos decorativos como linhas e ícones visuais sem alterar o HTML original.
+
+### Transições
+- Transições suaves foram aplicadas em cores e sombras, principalmente em botões e links, para tornar a interação mais agradável.
