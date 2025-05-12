@@ -189,15 +189,6 @@ h1{
     font-family: "Pattaya", sans-serif;
     line-height: 0.8;
 }
-iframe {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    pointer-events: none;
-    border: none;
-    position: absolute;
-    transform: scale(1.2); 
-}
 body {
     margin: 0;
     padding: 0;
