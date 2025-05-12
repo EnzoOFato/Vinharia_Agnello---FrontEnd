@@ -35,11 +35,6 @@
   text-decoration: none;
   color: rgb(255, 255, 230);
 }
-.link:hover {
-  color: rgb(0, 0, 0);
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-}
 h1 {
     margin-left: 20px;
     margin-top: 20px;
@@ -54,21 +49,6 @@ input[type="file"] {
     color: #333;
     cursor: pointer;
     margin-bottom: 12px;
-}
-  
-input[type="file"]::file-selector-button {
-    background-color: #750000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 6px 12px;
-    margin-right: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-  
-input[type="file"]::file-selector-button:hover {
-    background-color: #a00000;
 }
 form {
     background-color: #fff;
@@ -118,10 +98,6 @@ button {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
-}
-  
-button:hover {
-    background-color: #a00000;
 }
 body {
     margin: 0;
