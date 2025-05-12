@@ -41,11 +41,6 @@
     text-decoration: none;
     color: rgb(255, 255, 230);
 }
-.link:hover {
-    color: rgb(0, 0, 0);
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-}
 .video-container {
     position: relative;
     display: flex;
@@ -85,23 +80,12 @@
     text-align: center;
     font-size: 24px;
 }
-#paragrafo p::first-letter {
-    font-size: 50px;
-    font-weight: bold;
-}
 #link-hist{
     color: rgb(0, 0, 0);
     position: relative;
     bottom: 10px;
     text-decoration: none;
     background-color: #750000;
-}
-#link-hist:hover {
-    color: rgb(255, 255, 230);
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in;
-    background-color: #3d0000;
-    border-radius: 10px;  
 }
 .promocoes {
     display: flex;
@@ -163,12 +147,6 @@
     width: 80%;
     height: 50px;
 }
-.item .btn:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-    transition-timing-function: ease-out;
-    background-color: #750000;
-}
 .btn a{
     text-decoration: none;
     color: rgb(255, 255, 230);
@@ -210,15 +188,6 @@ h1{
     margin: 0;
     font-family: "Pattaya", sans-serif;
     line-height: 0.8;
-}
-iframe {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    pointer-events: none;
-    border: none;
-    position: absolute;
-    transform: scale(1.2); 
 }
 body {
     margin: 0;
