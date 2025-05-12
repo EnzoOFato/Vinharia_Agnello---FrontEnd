@@ -1,0 +1,11 @@
+.item:hover {
+    transform: scale(1.03);
+}
+.item button:hover {
+    background-color: #a00000;
+}
+.link:hover {
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
