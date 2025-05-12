@@ -34,10 +34,6 @@ body {
     text-align: center;
     transition: transform 0.3s ease;
 }
-
-.item:hover {
-    transform: scale(1.03);
-}
 .produto {
     display: flex;
     justify-content: center;
@@ -75,9 +71,6 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.item button:hover {
-    background-color: #a00000;
-}
 
 .rodape {
     width: 100vw;
@@ -150,9 +143,4 @@ body {
 .link {
     text-decoration: none;
     color: rgb(255, 255, 230);
-}
-.link:hover {
-    color: rgb(0, 0, 0);
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
 }
