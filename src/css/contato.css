@@ -141,3 +141,8 @@ body {
     position: relative;
     top: 50px;
 }
+button {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
