@@ -1,0 +1,22 @@
+.link:hover {
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#paragrafo p::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+#link-hist:hover {
+    color: rgb(255, 255, 230);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    background-color: #3d0000;
+    border-radius: 10px;  
+}
+.item .btn:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    background-color: #750000;
+}
