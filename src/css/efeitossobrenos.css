@@ -1,0 +1,35 @@
+.link:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.5s ease-in-out;
+}
+
+.item-imagem {
+    transition: transform 0.6s ease;
+    display: block;
+  }
+  
+  .berne-img:hover {
+    transform: rotate(360deg);
+  }
+  
+  .cobos-img:hover {
+    transform: rotate(360deg);
+  }
+  
+  .leyda-img:hover {
+    transform: rotate(360deg);
+  }
+  
+  .mazzei-img:hover {
+    transform: rotate(360deg);
+  }
+  
+  .niepoort-img:hover {
+    transform: rotate(360deg);
+  }
+  
+  .zuccardi-img:hover {
+    transform: rotate(360deg);
+  }
+  
+  
