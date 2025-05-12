@@ -39,10 +39,6 @@ p {
     transition: transform 0.3s;
 }
 
-.gallery img:hover {
-    transform: scale(1.05);
-}
-
 .equipe {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -115,11 +111,6 @@ th, td {
     text-decoration: none;
     color: rgb(255, 255, 230);
 }
-.link:hover {
-    color: rgb(0, 0, 0);
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-}
 .rodape {
   width: 100vw;
   background-color: #750000;
@@ -150,4 +141,36 @@ th, td {
 #yout {
   position: relative;
   top: 50px;
+}
+
+.gallery {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+}
+.gallery {
+    margin-top: 20px;
+    position: relative;
+    padding-right: 20px;
+}
+
+.gallery::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    background-color: #750000;
+    border-radius: 3px;
+}
+.gallery::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    background-color: #750000;
+    border-radius: 3px;
 }
